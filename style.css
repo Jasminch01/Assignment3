@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* header section 1 */
+.nav{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content:space-between;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
+li{
+    display:block;  
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 15px;
+    margin-right: 15px;
+}
+.flex-section {
+    display: flex;  
+}
+.half-width {
+    width: 60%;
+    margin: 0% 10% 0% 10%;
+}
+.half-width1{
+    width: 60%;
+    margin: 0% 10% 0% 10%;
+    padding-top: 3%;
+}
+/* section 2 */
+.banner-img{
+    height: 300px;
+    width: 500px;
+}
+.banner-img:hover{
+    transform: scale(1.1);
+}
+.peragraph{
+    padding-bottom: 30px;
+}
+.head{
+    font-size: 30px;
+    font-weight: bold;
+}
+.book-btn{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(66, 159, 217);
+    color: white;
+    border-radius: 10px;
+}
+.book-btn:hover{
+    border: 2px solid  rgb(66, 159, 217);
+    background-color: white ;
+    color: rgb(66, 159, 217) ;
+}
+/* section 3 */
+.icon{
+    height: 50px;
+    width: 100px;
+    padding-left: 9.5%;
+}
+hr{
+    width: 80%;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+/* section 3 */
+.collection{
+    padding: 5% 8% 0%;
+}
+.flex{
+    display: flex;
+}
+.img{
+    height: 400px;
+    width: 500px;
+    margin-right: 20px;
+    border-radius: 5px;
+
+}
+.pera{
+    margin-right: 8%;
+}
+
+#collection-heder{
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+.checked{
+    color: orange;
+}
+/* section4 */
+.section4{
+    /* padding-bottom: 5%; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+.img1{
+    padding-left: 20%;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+#see-more{
+    position: absolute;
+    left: 85%;
+    color:rgb(56, 154, 210);
+    text-decoration: none;
+}
+.last-div{
+    display: inline;
+    position: absolute;
+    left: 50%;
+    margin: 0%;
+    padding-top: 5%;
+}
+#peragraph{
+    padding-bottom: 10px;
+}
+#buy-btn{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(66, 159, 217);
+    color: white;
+    border-radius: 10px;  
+}
+.section5{
+    margin-top: 5%;
+    padding-bottom:10px;
+    text-align: center;
+    background-color: rgb(56, 154, 210);
+}
+.footer{
+    padding-top: 10px;
+    color: white;
+}
